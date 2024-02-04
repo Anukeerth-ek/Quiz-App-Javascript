@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>QuizBlitz</title>
+          <link rel="icon" href="https://play-lh.googleusercontent.com/Sk3qgXlM0ULQx1M9052HenpWmpFsKmb-r-NQkxjFGTBzJLyQLnBWWTELRIlrJFYH9Aw"/>
+          <link rel="stylesheet" href="style.css" />
+     </head>
+     <body>
+          <div class="container-div" id="quiz">
+               <div class="wrapper-div">
+                    <h2 id="question">Question</h2>
+                    <ul class="list">
+                         <li>
+                              <div class="question-number option1">
+                                   <input type="radio" id="a" name="answer" class="answer" />
+                                   <label id="a-text" for="a">Question</label>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="question-number option2">
+                                   <input type="radio" id="b" name="answer" class="answer" />
+                                   <label id="b-text" for="b">Question</label>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="question-number option3">
+                                   <input type="radio" id="c" name="answer" class="answer" />
+                                   <label id="c-text" for="c">Question</label>
+                              </div>
+                         </li>
+                         <li>
+                              <div class="question-number option4">
+                                   <input type="radio" id="d" name="answer" class="answer" />
+                                   <label id="d-text" for="d">Question</label>
+                              </div>
+                         </li>
+                    </ul>
+               </div>
+
+               <button class="btn" id="sub">Submit</button>
+          </div>
+
+          <script src="script.js"></script>
+     </body>
+</html>

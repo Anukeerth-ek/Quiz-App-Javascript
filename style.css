@@ -1,0 +1,88 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     background-color: rgba(227, 240, 238, 0.8);
+     font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+.result-hidden {
+     display: none;
+}
+.result-hidden img {
+     width: 100px;
+}
+.result-shower {
+     margin-left: 3rem;
+     width: 100px;
+     visibility: visible;
+}
+.container-div {
+     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+     width: 40rem;
+}
+.wrapper-div {
+     background-color: #fff;
+     height: 25rem;
+     width: 100%;
+     border-radius: 10px;
+     padding: 2rem;
+}
+.wrapper-div h2 {
+     font-size: 28px;
+     text-align: center;
+     margin-top: 0.2rem;
+     margin-bottom: 1rem;
+}
+h2 {
+     background-color: white;
+     padding: 18px 2px;
+     text-align: center;
+     border-radius: 8px;
+     box-shadow: antiquewhite;
+}
+.list {
+     list-style: none;
+}
+.list.option4 {
+     margin-bottom: 120px;
+}
+.question-number input {
+     margin: 2rem 0 0.9rem 0.5rem;
+}
+label {
+     font-size: 18px;
+     font-weight: 500;
+     margin-left: 8px;
+     cursor: pointer;
+}
+.btn {
+     width: 100%;
+     padding: 1.5rem 2rem;
+     font-size: 22px;
+     border: none;
+     outline: none;
+     background-color: rgba(0, 128, 109, 0.8);
+     color: #fff;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+}
+button {
+     width: 100%;
+     padding: 1rem 0.5rem;
+     font-size: 22px;
+     border: none;
+     outline: none;
+     background-color: rgba(0, 128, 109, 0.8);
+     color: #fff;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+}
+.btn:hover {
+     background-color: rgba(0, 128, 109, 0.9);
+}
